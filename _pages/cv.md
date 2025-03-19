@@ -11,54 +11,35 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Master of Science, Computing - Artificial Intelligence, University of Utah, _Present_
+* Bachelor of Engineering, Electronics and Telecommunication, University of Pune, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Graduate Research Assistant, University of Utah, _Jan 2025 - Present_
+  *  Researching soil moisture prediction using machine learning models with different parameters based on Climatology.
+    
+* Machine Learning Engineer, Tata Consultancy Service, _Jul. 2021 – Aug. 2024_
+  * Project: Startups Enablement
+    * Led collaboration with startups to optimize and accelerate machine learning, deep learning, and large language model workloads.
+    * Achieved up to 33X acceleration in training and inference using Python, Pandas, Numpy, Scikit-Learn, TensorFlow, and PyTorch.
+  * Project: Chatbot Query Classification
+    * Developed and deployed an NLP-based multi-class text classification model, automating data segregation and reducing manual efforts by 80% using Python, Pandas, Spacy, NLTK, Scikit-Learn, Transformers, and PyTorch.
+    * Designed an interactive dashboard using Gradio to visualize classified data and provide real-time analytics, enhancing interpretability and user interaction. 
+   * Project: Recommendation System
+     * Designed and implemented a product recommendation system that increased client revenue by 15% through targeted product suggestions using data analytics with Python, Pandas, and Numpy.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
-Skills
+Technical Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Python, C++, JAVA, JavaScript
+* Frameworks and Databases: PyTorch, Tensorflow, Transformers, MySQL, MongoDB, Cloud Firestore(Firebase)
+* Tools: Docker, Mobaxterm, Postman, Android Studio, Gradio
+* Libraries: Pandas, Numpy, Scikit-Learn, Matplotlib, Spacy, NLTK, OpenCV
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- Collision Warning System for Vehicles using Deep Learning
+Talks, _International Conference on Deep Learning, IOT, Drone Technology, Smart Cities & Application (ICDIDSA) 2023_
+- Advancements and Challenges in Incremental Learning: A Comprehensive Survey, _International Journal of Creative Research Thoughts (IJCRT) 2023_
