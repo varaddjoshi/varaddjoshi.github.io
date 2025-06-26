@@ -10,7 +10,7 @@
 <body>
   <header>
     <h1>Varad Joshi</h1>
-    <p>AI/ML Enthusiast • MSCS Grad Student @ University of Utah</p>
+    <p>ML Engineer | GenAI Specialist | MSCS @ University of Utah</p>
     <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
   </header>
 
@@ -21,7 +21,7 @@
       </div>
       <div class="about-text">
         <h2>About Me</h2>
-        <p>I’m Varad Joshi, a dedicated AI/ML enthusiast with 3+ years of experience in building machine learning, NLP, and generative AI solutions across industries. I am currently pursuing my Master's in Computing - AI at the University of Utah and working as a Research Assistant on climate modeling projects.</p>
+        <p>I’m Varad Joshi, an AI/ML engineer with 3+ years of experience in machine learning, NLP, and generative AI. I'm pursuing my Master's in Computing - AI at the University of Utah and currently working as a Research Assistant on climate-based ML models. I'm also interning at Infotrend, working on cutting-edge GenAI applications.</p>
       </div>
     </div>
   </section>
@@ -29,20 +29,21 @@
   <section id="education">
     <h2>Education</h2>
     <ul>
-      <li><strong>University of Utah</strong>, MS in Computing – AI (2024–2025)<br>GPA: 3.90/4.00</li>
-      <li><strong>Pune Institute of Computer Technology</strong>, BE in Electronics & Telecommunication (2017–2021)<br>GPA: 8.59/10</li>
+      <li><strong>MS in Computing – AI</strong>, University of Utah (2024–2025) | GPA: 3.90</li>
+      <li><strong>BE in E&TC</strong>, PICT Pune (2017–2021) | GPA: 8.59</li>
     </ul>
   </section>
 
   <section id="experience">
     <h2>Experience</h2>
     <ul>
-      <li><strong>Graduate Research Assistant</strong>, University of Utah (Jan 2025 – Present)<br>Soil moisture prediction using ML based on climatology parameters.</li>
+      <li><strong>AI/ML Intern</strong>, Infotrend (May 2025 – Present)<br />Contributing to Generative AI pipelines and NLP model optimization.</li>
+      <li><strong>Graduate Research Assistant</strong>, University of Utah (Jan 2025 – Present)<br />Soil moisture prediction using ML models and climate data.</li>
       <li><strong>Machine Learning Engineer</strong>, Tata Consultancy Services (Jul 2021 – Aug 2024)
         <ul>
-          <li>Startup Enablement: Achieved 33x acceleration in ML/DL model training and inference.</li>
-          <li>Chatbot Query Classification: NLP model with dashboard using Gradio.</li>
-          <li>Recommendation System: Boosted client revenue by 15% via analytics-based product suggestions.</li>
+          <li>Accelerated model training by 33x in startup-focused GenAI frameworks</li>
+          <li>Built NLP classification pipelines and dashboards (Gradio)</li>
+          <li>Revenue-boosting recommender system implementation</li>
         </ul>
       </li>
     </ul>
@@ -52,35 +53,36 @@
     <h2>Projects</h2>
     <ul>
       <li><strong>Collision Warning System</strong>  
-        <br>SSDMobileNetV2 + lane detection (OpenCV, TensorFlow) on Indian Driving Dataset.
-      </li>
-      <li><strong>Donation Management App</strong>  
-        <br>Built using Android Studio, Firebase, and Google APIs to optimize region-based donations.
-      </li>
+        <br>SSDMobileNetV2 + OpenCV for lane detection on Indian road dataset</li>
+      <li><strong>Donation App</strong>  
+        <br>Android + Firebase to connect regional donation sources</li>
     </ul>
   </section>
 
   <section id="skills">
-    <h2>Technical Skills</h2>
+    <h2>Skills</h2>
     <ul>
-      <li><strong>Languages:</strong> Python, C++, Java, JavaScript</li>
-      <li><strong>ML Frameworks:</strong> PyTorch, TensorFlow, Transformers</li>
-      <li><strong>Databases:</strong> MySQL, MongoDB, Firebase</li>
-      <li><strong>Libraries:</strong> Pandas, Numpy, Scikit-Learn, Matplotlib, Spacy, NLTK, OpenCV</li>
-      <li><strong>Tools:</strong> Docker, Postman, Android Studio, Gradio, Mobaxterm</li>
+      <li><strong>Languages:</strong> Python, C++, Java, JS</li>
+      <li><strong>ML/DL:</strong> PyTorch, TensorFlow, Transformers, Scikit-learn</li>
+      <li><strong>Libraries:</strong> Numpy, Pandas, OpenCV, NLTK, SpaCy, Matplotlib</li>
+      <li><strong>Tools:</strong> Docker, Postman, Gradio, Firebase, Android Studio</li>
     </ul>
   </section>
 
   <section id="publications">
     <h2>Publications</h2>
     <ul>
-      <li><a href="https://doi.org/10.1063/5.0227567" target="_blank">
-        Collision Warning System for Vehicles using Deep Learning</a><br>
-        International Conference on Deep Learning, IoT, Drone Technology, Smart Cities & Application (ICDIDSA), 2023
+      <li>
+        <a href="https://doi.org/10.1063/5.0227567" target="_blank">
+          Collision Warning System for Vehicles using Deep Learning
+        </a><br />
+        ICDIDSA 2023 – AIP Conference Proceedings
       </li>
-      <li><a href="https://www.ijcrt.org/papers/IJCRT2310388.pdf" target="_blank">
-        Advancements and Challenges in Incremental Learning: A Comprehensive Survey</a><br>
-        International Journal of Creative Research Thoughts (IJCRT), 2023
+      <li>
+        <a href="https://www.ijcrt.org/papers/IJCRT2310388.pdf" target="_blank">
+          Advancements and Challenges in Incremental Learning
+        </a><br />
+        IJCRT, 2023
       </li>
     </ul>
   </section>
@@ -101,12 +103,10 @@
     const toggleBtn = document.getElementById("theme-toggle");
     const body = document.body;
     const savedTheme = localStorage.getItem("theme");
-
     if (savedTheme === "dark") {
       body.classList.add("dark");
       toggleBtn.textContent = "☀️";
     }
-
     toggleBtn.addEventListener("click", () => {
       body.classList.toggle("dark");
       const isDark = body.classList.contains("dark");
