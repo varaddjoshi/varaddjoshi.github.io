@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varad Joshi</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Varad Joshi</h1>
+    <p>AI/ML Enthusiast • MSCS Grad Student @ University of Utah</p>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-photo">
+        <img src="images/profile.jpg" alt="Varad Joshi" class="profile-photo" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I’m Varad Joshi, a dedicated AI/ML enthusiast with 3+ years of experience in building machine learning, NLP, and generative AI solutions across industries. I am currently pursuing my Master's in Computing - AI at the University of Utah and working as a Research Assistant on climate modeling projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>University of Utah</strong>, MS in Computing – AI (2024–2025)<br>GPA: 3.90/4.00</li>
+      <li><strong>Pune Institute of Computer Technology</strong>, BE in Electronics & Telecommunication (2017–2021)<br>GPA: 8.59/10</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Graduate Research Assistant</strong>, University of Utah (Jan 2025 – Present)<br>Soil moisture prediction using ML based on climatology parameters.</li>
+      <li><strong>Machine Learning Engineer</strong>, Tata Consultancy Services (Jul 2021 – Aug 2024)
+        <ul>
+          <li>Startup Enablement: Achieved 33x acceleration in ML/DL model training and inference.</li>
+          <li>Chatbot Query Classification: NLP model with dashboard using Gradio.</li>
+          <li>Recommendation System: Boosted client revenue by 15% via analytics-based product suggestions.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Collision Warning System</strong>  
+        <br>SSDMobileNetV2 + lane detection (OpenCV, TensorFlow) on Indian Driving Dataset.
+      </li>
+      <li><strong>Donation Management App</strong>  
+        <br>Built using Android Studio, Firebase, and Google APIs to optimize region-based donations.
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, C++, Java, JavaScript</li>
+      <li><strong>ML Frameworks:</strong> PyTorch, TensorFlow, Transformers</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB, Firebase</li>
+      <li><strong>Libraries:</strong> Pandas, Numpy, Scikit-Learn, Matplotlib, Spacy, NLTK, OpenCV</li>
+      <li><strong>Tools:</strong> Docker, Postman, Android Studio, Gradio, Mobaxterm</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li><a href="https://doi.org/10.1063/5.0227567" target="_blank">
+        Collision Warning System for Vehicles using Deep Learning</a><br>
+        International Conference on Deep Learning, IoT, Drone Technology, Smart Cities & Application (ICDIDSA), 2023
+      </li>
+      <li><a href="https://www.ijcrt.org/papers/IJCRT2310388.pdf" target="_blank">
+        Advancements and Challenges in Incremental Learning: A Comprehensive Survey</a><br>
+        International Journal of Creative Research Thoughts (IJCRT), 2023
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-icons">
+      <li><a href="mailto:varad.joshi@utah.edu">📧 Email</a></li>
+      <li><a href="https://linkedin.com/in/varad-d-joshi" target="_blank">💼 LinkedIn</a></li>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Varad Joshi — Built with 💻 and HTML</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    const body = document.body;
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+      body.classList.add("dark");
+      toggleBtn.textContent = "☀️";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      body.classList.toggle("dark");
+      const isDark = body.classList.contains("dark");
+      toggleBtn.textContent = isDark ? "☀️" : "🌙";
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+  </script>
+</body>
+</html>
