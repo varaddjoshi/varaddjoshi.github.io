@@ -100,3 +100,25 @@ body.dark {
   --accent-color: #90cdf4;
   --section-bg: #2d3748;
 }
+
+/* Unvisited link */
+a:link {
+  color: var(--accent-color);
+}
+
+/* Visited link */
+a:visited {
+  color: var(--accent-color);
+}
+
+/* Hover link */
+a:hover {
+  color: #2c5282;
+  text-decoration: underline;
+}
+
+/* Active link */
+a:active {
+  color: var(--accent-color);
+}
+
