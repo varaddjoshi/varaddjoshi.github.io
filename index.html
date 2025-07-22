@@ -9,9 +9,19 @@
 </head>
 <body>
   <header>
-    <h1>Varad Joshi</h1>
-    <p>ML Engineer | GenAI Specialist | MSCS @ University of Utah</p>
-    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <nav>
+      <h1>Varad Joshi</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
   </header>
 
   <section id="about" class="about-section">
@@ -21,7 +31,12 @@
       </div>
       <div class="about-text">
         <h2>About Me</h2>
-        <p>I’m Varad Joshi, an AI/ML engineer with 3+ years of experience in machine learning, NLP, and generative AI. I'm pursuing my Master's in Computing - AI at the University of Utah and currently working as a Research Assistant on climate-based ML models. I'm also interning at Infotrend, working on cutting-edge GenAI applications.</p>
+        <p>
+          I'm Varad Joshi, an AI/ML engineer and researcher with 3+ years of experience in machine learning,
+          NLP, and generative AI. I'm pursuing a Master’s in Computing - AI at the University of Utah,
+          currently contributing to research in healthcare NLP, computer vision, and environmental ML applications.
+        </p>
+        <a href="Varad_Joshi_CV.pdf" class="btn" target="_blank">Download CV</a>
       </div>
     </div>
   </section>
@@ -37,14 +52,25 @@
   <section id="experience">
     <h2>Experience</h2>
     <ul>
-      <li><strong>AI/ML Intern</strong>, Infotrend (May 2025 – Present)<br />Contributing to Generative AI pipelines and NLP model optimization.</li>
-      <li><strong>Graduate Research Assistant</strong>, University of Utah (Jan 2025 – Present)<br />Soil moisture prediction using ML models and climate data.</li>
-      <li><strong>Machine Learning Engineer</strong>, Tata Consultancy Services (Jul 2021 – Aug 2024)
-        <ul>
-          <li>Accelerated model training by 33x in startup-focused GenAI frameworks</li>
-          <li>Built NLP classification pipelines and dashboards (Gradio)</li>
-          <li>Revenue-boosting recommender system implementation</li>
-        </ul>
+      <li>
+        <strong>AI/ML Intern</strong>, Infotrend Inc (May 2025 – Present)<br />
+        Built GenAI pipelines using RAG, LiteLLM, and ChromaDB; improved document retrieval and response quality.
+      </li>
+      <li>
+        <strong>Research Associate</strong>, University of Utah – Population Health Sciences (May 2025 – Present)<br />
+        Fine-tuning BERT-based models for clinical text classification with imbalanced datasets.
+      </li>
+      <li>
+        <strong>Student Researcher</strong>, University of Utah – Anthropology (May 2025 – Present)<br />
+        Developed deep learning models for beaver dam detection in satellite images using PyTorch.
+      </li>
+      <li>
+        <strong>Graduate Research Assistant</strong>, University of Utah – Anthropology (Jan 2025 – Apr 2025)<br />
+        Predicted soil moisture from geospatial data with ML models.
+      </li>
+      <li>
+        <strong>Machine Learning Engineer</strong>, Tata Consultancy Services (Jul 2021 – Aug 2024)<br />
+        Delivered NLP tools, recommendation systems, and GenAI optimizations for clients and startups.
       </li>
     </ul>
   </section>
@@ -52,20 +78,29 @@
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li><strong>Collision Warning System</strong>  
-        <br>SSDMobileNetV2 + OpenCV for lane detection on Indian road dataset</li>
-      <li><strong>Donation App</strong>  
-        <br>Android + Firebase to connect regional donation sources</li>
+      <li><strong>Pneumonia Detection (Faster R-CNN)</strong><br />
+        Localized lung opacities in X-rays using PyTorch and medical image processing.
+      </li>
+      <li><strong>Retinal Vessel Segmentation (U-Net)</strong><br />
+        Segmented blood vessels in fundus images; optimized F1 using loss engineering.
+      </li>
+      <li><strong>Zomato Dataset Analysis (PySpark)</strong><br />
+        ML pipeline for restaurant rating prediction; XGBoost with R² = 0.52.
+      </li>
+      <li><strong>Beaver Dam Detection</strong><br />
+        CV models for satellite imagery classification; part of active anthropology research.
+      </li>
     </ul>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li><strong>Languages:</strong> Python, C++, Java, JS</li>
-      <li><strong>ML/DL:</strong> PyTorch, TensorFlow, Transformers, Scikit-learn</li>
-      <li><strong>Libraries:</strong> Numpy, Pandas, OpenCV, NLTK, SpaCy, Matplotlib</li>
-      <li><strong>Tools:</strong> Docker, Postman, Gradio, Firebase, Android Studio</li>
+      <li><strong>Languages:</strong> Python, C++</li>
+      <li><strong>Frameworks:</strong> PyTorch, TensorFlow, Transformers, LiteLLM</li>
+      <li><strong>Libraries:</strong> Pandas, NumPy, OpenCV, Scikit-learn, NLTK, SpaCy, Ragbits</li>
+      <li><strong>Databases:</strong> ChromaDB, MySQL, MongoDB</li>
+      <li><strong>Tools:</strong> Docker, Git, Gradio, Postman</li>
     </ul>
   </section>
 
@@ -75,24 +110,23 @@
       <li>
         <a href="https://doi.org/10.1063/5.0227567" target="_blank">
           Collision Warning System for Vehicles using Deep Learning
-        </a><br />
-        ICDIDSA 2023 – AIP Conference Proceedings
+        </a> – ICDIDSA 2023
       </li>
       <li>
         <a href="https://www.ijcrt.org/papers/IJCRT2310388.pdf" target="_blank">
           Advancements and Challenges in Incremental Learning
-        </a><br />
-        IJCRT, 2023
+        </a> – IJCRT 2023
       </li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <div class="contact-icons">
-      <li><a href="mailto:varad.joshi@utah.edu">📧 Email</a></li>
-      <li><a href="https://linkedin.com/in/varad-d-joshi" target="_blank">💼 LinkedIn</a></li>
-    </div>
+    <ul class="contact-list">
+      <li>📧 <a href="mailto:varad.joshi@utah.edu">varad.joshi@utah.edu</a></li>
+      <li>💼 <a href="https://linkedin.com/in/varad-d-joshi" target="_blank">LinkedIn</a></li>
+      <li>💻 <a href="https://github.com/varaddjoshi" target="_blank">GitHub</a></li>
+    </ul>
   </section>
 
   <footer>
