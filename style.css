@@ -129,3 +129,17 @@ body.dark a {
 body.dark a:hover {
   color: #c3dbf4;
 }
+
+#education li,
+#experience li,
+#projects li,
+#volunteering li {
+  margin-bottom: 1.5rem;
+}
+
+#education li:last-child,
+#experience li:last-child,
+#projects li:last-child,
+#volunteering li:last-child {
+  margin-bottom: 0;
+}
